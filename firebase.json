@@ -1,9 +1,0 @@
-{
-  "firebase": "thirsty",
-  "public": "dist",
-  "ignore": [
-    "firebase.json",
-    "**/.*",
-    "**/node_modules/**"
-  ]
-}
