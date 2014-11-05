@@ -1,0 +1,45 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<polymer-element name="th-welcome" attributes="">
+  <template>
+    <link rel="stylesheet" href="th-welcome.css">
+    <style>
+      :host {
+        /* Note: by default elements are always display:inline. */
+        /*display: block;*/
+        height: 100%;
+      }
+      .subheading{
+        margin-top: 0px;
+        /*line-height: 0px;*/
+      }
+      .heading {
+        margin-bottom: 0px;
+      }
+
+
+    </style>
+
+    <div horizontal center center-justified layout style="height: 100%; margin-top: -5rem">
+     <div vertical layout center-justified center>
+       <h1 class="heading">The Thirst</h1>
+       <h1 class="subheading fadeIn fadeIn-3s fadeIn-Delay-3s">Its Real</h1>
+     </div>
+
+    </div>
+
+
+  </template>
+  <script>
+    (function () {
+      'use strict';
+
+      Polymer({
+        // define element prototype here
+
+      });
+
+
+    })();
+  </script>
+</polymer-element>
